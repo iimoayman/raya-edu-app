@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/endUnit"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="هل انت متاكد من انهاء الوحدة و تم مشاهدة جميع محاضرات و مصادر و حل الامتحانات للهذه الوحدة ؟"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="viewEnd"
+        android:fontFamily="@font/cairoblack"
+        android:textColor="@color/red"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="نعم"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cairoblack"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/main_c"
+        app:layout_constraintTop_toBottomOf="@+id/endUnit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cornerRadius="25dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

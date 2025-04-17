@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="محتوي الكتاب الإلكتروني حقوق الانسان"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_c"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_lectures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairoextrabold"
+            android:textSize="12sp"
+            android:layout_margin="10dp"
+            android:text="المحاضرات و المصادر" />
+
+        <Button
+            android:id="@+id/btn_exams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairoextrabold"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:text="الامتحانات" />
+
+        <Button
+            android:id="@+id/btn_unit_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairoextrabold"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:text="إنهاء الوحدة" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_c"/>
+</LinearLayout>
